@@ -5,8 +5,52 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Vithunan Inthiranathan" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
 
+        <Button
+            x:Name="btn_Grid"
+            Content="Grid"
+            FontSize="45"
+            FontWeight="Heavy"
+            Grid.Column="0"
+            Grid.Row="0"
+            Click="btn_Grid_Click"
+            />
+        <Button
+            x:Name="btn_StackPanel"
+            Content="StackPanel"
+            FontSize="45"
+            FontWeight="Heavy"
+            Grid.Column="1"
+            Grid.Row="0"
+            Click="btn_StackPanel_Click"
+            />
+        <Button
+            x:Name="btn_WrapPanel"
+            Content="WrapPanel"
+            FontSize="45"
+            FontWeight="Heavy"
+            Grid.Column="0"
+            Grid.Row="1"
+            Click="btn_WrapPanel_Click"
+            />
+        <Button
+            x:Name="btn_DockPanel"
+            Content="DockPanel"
+            FontSize="45"
+            FontWeight="Heavy"
+            Grid.Column="1"
+            Grid.Row="1"
+            Click="btn_DockPanel_Click"
+            />
     </Grid>
 </Window>
